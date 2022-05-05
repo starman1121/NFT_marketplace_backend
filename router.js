@@ -15,6 +15,7 @@ router.get('/:tokenId', async (ctx, next) => {
   ctx.body = {
     tokenId: ctx.params.tokenId,
     result: token    
+    
   };
 });
 
